@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #434455
+    color: #434455;
     background-color: #FFFFFF;
 }
 ul {
@@ -8,6 +8,10 @@ ul {
 }
  a {
     text-decoration: none;
+ }
+
+ .visually-hidden {
+     
  }
 
  /*Header*/
@@ -33,7 +37,7 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em; 
  }
- .header-list-item :hover,  .header-list-item :active, .header-list-item :focus {
+ .header-list-item:hover,  .header-list-item:active, .header-list-item:focus {
     color: #404BBF; 
  } 
 
@@ -47,7 +51,7 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.adress-menu-item :hover, .adress-menu-item :focus {
+.adress-menu-item:hover, .adress-menu-item:focus {
     color: #404BBF;
 }
 
@@ -74,9 +78,7 @@ ul {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em; 
-        border-radius: 4px;
         background:  #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         cursor: pointer;
 }
 
