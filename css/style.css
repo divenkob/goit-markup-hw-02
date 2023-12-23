@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455
+    background-color: #FFFFFF
 }
 ul {
     list-style-type: none;
@@ -21,28 +22,23 @@ ul {
  }
 
  /*Header*/
- .header-logo-web {
-    color:  #4D5AE5;
-        font-family: Raleway;
+ .header-logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em; 
-        text-transform: uppercase;
- }
-
- .header-logo-studio {
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.16; 
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
  }
 
+ .header-logo-studio {
+        color: #2E2F42;
+ }
+
  .header-list-item {
+        color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -52,15 +48,17 @@ ul {
     color: #404BBF; 
  } 
 
+ .address {
+    font-style: normal;
+ }
  .adress-menu-item {
         color: #434455;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.adress-menu-item :hover {
+.adress-menu-item :hover, .adress-menu-item :focus {
     color: #404BBF;
 }
 
@@ -82,7 +80,7 @@ ul {
 
 .hero-buy-btn {
     color: #FFF;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -93,8 +91,8 @@ ul {
         cursor: pointer;
 }
 
-.hero-buy-btn :hover {
-    background-color:#404BBF;
+.hero-buy-btn :hover, .hero-buy-btn :focus {
+    background-color: #404BBF
 }
 
 /* FEATURES */
@@ -106,6 +104,7 @@ ul {
 .features-item {}
 
 .features-title {
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -114,7 +113,6 @@ ul {
 }
 
 .features-text {
-    color: #434455;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -124,9 +122,12 @@ ul {
 
 /* TEAM */
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
+        color: #2E2F42;
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
@@ -139,10 +140,11 @@ ul {
 .team-list {}
 
 .team-member {
-
+   background-color: #FFFFFF
 }
 
 .team-member-name {
+    color: #2E2F42;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -152,7 +154,6 @@ ul {
 }
 
 .team-member-position {
-    color: #434455;
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
@@ -165,6 +166,7 @@ ul {
 .portfolio {}
 
 .portfolio-title {
+        color: #2E2F42;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -178,6 +180,7 @@ ul {
 .portfolio-img {}
 
 .portfolio-subtitle {
+        color: #2E2F42;
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
@@ -186,7 +189,6 @@ ul {
 }
 
 .portfolio-describing {
-    color:  #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -198,26 +200,19 @@ ul {
     background: #2E2F42;
 }
 
-.footer-logo {}
-
-.footer-logo-web {
-    color:  #4d5ae5;
-        font-family: Raleway;
+.footer-logo {
+    color: #4D5AE5;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
+        font-style: normal;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-logo-studio {
-    color: #F4F4FD;
-    font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .footer-text {
